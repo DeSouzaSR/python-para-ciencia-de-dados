@@ -21,19 +21,19 @@ Valor crítico = 1.796
 """
 import math
 
-def t_test(mu_0, mu, xbar, s):
-    return (xbar - mu_0) / (s / math.sqrt(mu))
+def t_test(mu_0, n, xbar, s):
+    return (xbar - mu_0) / (s / math.sqrt(n))
 
 def main():
     #  Inputs
     t_critico = 1.796
     mu_0 = 42
-    mu = 12
+    n = 12
     xbar = 50
     s = 15
 
     # Computation
-    t = t_test( mu_0, mu, xbar, s)
+    t = t_test( mu_0, n, xbar, s)
 
     # Write out results
     if t > t_critico:
