@@ -1,0 +1,6 @@
+t_critico =  1.796
+mu_0 =  42
+mu =  12
+xbar =  50
+s =  15
+Result =   Como t > valor crítico, rejeitamos H0
